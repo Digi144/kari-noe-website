@@ -102,7 +102,7 @@ function App() {
             <h2>Über Mich</h2>
             <div className="separator-center"></div>
             <p className="lead-text">
-              "Exzellenz ist keine Handlung, sondern eine Gewohnheit. Mit über 20 Jahren Erfahrung biete ich Ihnen eine Immobilienberatung, die auf Diskretion, Wissen und einem exklusiven Netzwerk basiert."
+              "Exzellenz ist keine Handlung, sondern eine Gewohnheit. Mit über 20 Jahren Erfahrung biete ich Ihnen eine Immobilienberatung, die auf Diskretion, Wissen und einem exklusiven Netzwerk basiert – egal ob Großprojekt oder private Kleinwohnung."
             </p>
             <div className="stats-grid">
               <div className="stat-item">
@@ -111,7 +111,7 @@ function App() {
               </div>
               <div className="stat-item">
                 <div className="stat-number">100%</div>
-                <div className="stat-label">Unabhängig</div>
+                <div className="stat-label">Persönlich</div>
               </div>
             </div>
           </motion.div>
@@ -128,10 +128,10 @@ function App() {
 
           <div className="grid-2-cols">
             {[
-              { title: "Investmentberatung", text: "Steuerschonende Anlagen und langfristige Strategien." },
-              { title: "Verkauf & Vermittlung", text: "Marktgerechte Platzierung durch starkes Netzwerk." },
-              { title: "Vermietung", text: "Professionelle Beratung und Abwicklung." },
-              { title: "Projektbegleitung", text: "Monitoring für Investoren und Gesellschaften." }
+              { title: "Verkauf & Vermittlung", text: "Marktgerechte Platzierung und professionelle Abwicklung." },
+              { title: "Investmentberatung", text: "Steuerschonende Anlagen und langfristige Strategien für Investoren." },
+              { title: "Portfolio Monitoring", text: "Begleitung und Optimierung von Immobilienbeständen." },
+              { title: "Kooperationen", text: "Zugang zu exklusiven Partnern und Netzwerken (z. B. Captura)." }
             ].map((service, i) => (
               <motion.div
                 key={i}
@@ -205,9 +205,9 @@ function App() {
 
           <div className="grid-4-cols">
             {[
-              { label: "Netzwerk", desc: "Notare, Rechtsanwälte, Finanzierungsexperten - über 20 Jahre gewachsen." },
-              { label: "Erfahrung", desc: "360-Grad-Sicht aus Investor- und Vermittler-Perspektive." },
-              { label: "Unabhängigkeit", desc: "Ungebunden und ausschließlich Ihren Interessen verpflichtet." },
+              { label: "Erfahrung", desc: "Echte Expertise statt Hochglanzblasen. Über 20 Jahre Marktkenntnis." },
+              { label: "Netzwerk", desc: "Zugang zu Notaren und Experten als echter Mehrwert für Ihr Projekt." },
+              { label: "Fokus", desc: "Persönliche Betreuung – nicht nur bei Großvolumen-Deals." },
               { label: "Diskretion", desc: "Ihr Anliegen bleibt unser Geheimnis. Garantiert." }
             ].map((item, i) => (
               <motion.div
