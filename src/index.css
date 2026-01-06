@@ -340,17 +340,19 @@ p {
 }
 
 .card {
-  background: white;
+  background: var(--color-bg);
   padding: 50px;
   border-radius: var(--radius-card);
-  border: 1px solid rgba(0, 0, 0, 0.03);
-  transition: transform 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  transition: all 0.3s;
   text-align: left;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  border-color: transparent;
 }
 
 /* Portfolio / Objects Grid */
@@ -448,17 +450,19 @@ p {
 }
 
 .value-card-box {
-  background: white;
+  background: var(--color-bg);
   padding: 40px 30px;
   border-radius: var(--radius-card);
-  border: 1px solid rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.02);
   text-align: center;
-  transition: transform 0.3s;
+  transition: all 0.3s;
 }
 
 .value-card-box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+  border-color: transparent;
 }
 
 .value-card-title {
