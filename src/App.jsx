@@ -65,7 +65,7 @@ function App() {
       </AnimatePresence>
 
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section bg-white">
         <motion.div
           initial="initial" animate="animate" variants={stagger}
           className="hero-content"
@@ -91,7 +91,7 @@ function App() {
       </section>
 
       {/* About / Profil Section */}
-      <section id="profil" className="section centered-text">
+      <section id="profil" className="section bg-off-white centered-text">
         <div className="container max-w-medium">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -119,7 +119,7 @@ function App() {
       </section>
 
       {/* Services / Leistungen Section */}
-      <section id="leistungen" className="section">
+      <section id="leistungen" className="section bg-white">
         <div className="container">
           <div className="section-header text-center">
             <h2>Leistungen</h2>
@@ -150,7 +150,7 @@ function App() {
       </section>
 
       {/* Portfolio / Aktuelle Objekte Section */}
-      <section id="objekte" className="section bg-white text-center">
+      <section id="objekte" className="section bg-off-white text-center">
         <div className="container">
           <div className="section-header">
             <h2>Aktuelle Objekte</h2>
@@ -196,7 +196,7 @@ function App() {
       </section>
 
       {/* Values / Netzwerk Section */}
-      <section id="netzwerk" className="section">
+      <section id="netzwerk" className="section bg-white">
         <div className="container">
           <div className="section-header text-center">
             <h2>Vertrauen & Netzwerk</h2>
@@ -227,7 +227,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="kontakt" className="section dark-section">
+      <section id="kontakt" className="section bg-off-white">
         <div className="container centered-text">
           <h2 className="display-heading">Lassen Sie uns sprechen.</h2>
           <p className="contact-sub">
@@ -235,10 +235,10 @@ function App() {
           </p>
 
           <div className="contact-actions">
-            <a href="mailto:office@karinoe.at" className="btn btn-outline-white">
+            <a href="mailto:office@karinoe.at" className="btn">
               E-Mail
             </a>
-            <a href="tel:+4312345678" className="btn btn-white">
+            <a href="tel:+4312345678" className="btn">
               Anrufen
             </a>
           </div>

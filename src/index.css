@@ -78,6 +78,15 @@ p {
 
 .section {
   padding: 120px 0;
+  transition: background-color 0.3s ease;
+}
+
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+
+.bg-off-white {
+  background-color: var(--color-bg) !important;
 }
 
 .max-w-medium {
@@ -496,20 +505,13 @@ p {
 }
 
 /* Contact / Footer */
-.dark-section {
-  background: #111;
-  color: white;
+#kontakt {
   padding-top: 140px;
   padding-bottom: 40px;
 }
 
-.dark-section h2,
-.dark-section p {
-  color: white;
-}
-
-.dark-section .contact-sub {
-  color: #888;
+#kontakt .contact-sub {
+  color: var(--color-text-secondary);
   font-size: 1.1rem;
   margin-bottom: 60px;
 }
@@ -562,7 +564,7 @@ p {
 }
 
 .footer-links {
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--color-border);
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
