@@ -434,14 +434,15 @@ function App() {
       <section className="section bg-off-white contact-process">
         <div className="container">
           <div className="section-header text-center">
-            <h2>Tritt mit Kari Noé in Kontakt</h2>
+            <h2>Kontaktieren Sie mich</h2>
             <div className="separator-center"></div>
           </div>
           <div className="contact-process-steps">
             {[
               { icon: <FileText size={32} />, text: "Füllen Sie mein kurzes Formular aus" },
-              { icon: <Briefcase size={32} />, text: "Kari Noé analysiert Ihr Potenzial" },
-              { icon: <Target size={32} />, text: "Ich entwickle eine maßgeschneiderte Strategie" }
+              { icon: <Briefcase size={32} />, text: "Gemeinsam vereinbaren wir ein Analysegespräch" },
+              { icon: <Users size={32} />, text: "In einem Discovery Call besprechen wir Ihr Potenzial" },
+              { icon: <Target size={32} />, text: "Ich entwickle maßgeschneiderte Lösungen" }
             ].map((step, i) => (
               <motion.div
                 key={i}
@@ -454,7 +455,7 @@ function App() {
                 <div className="contact-process-icon">{step.icon}</div>
                 <div className="contact-process-number">{i + 1}</div>
                 <p>{step.text}</p>
-                {i < 2 && <div className="contact-process-arrow"><ArrowRight size={24} /></div>}
+                {i < 3 && <div className="contact-process-arrow"><ArrowRight size={24} /></div>}
               </motion.div>
             ))}
           </div>
