@@ -214,19 +214,23 @@ function App() {
             <p className="benefits-intro-lead text-center">
               In einem unübersichtlichen Markt ist Vertrauen die wichtigste Währung. Meine Klienten schätzen vor allem drei Dinge an unserer Zusammenarbeit:
             </p>
-            <div className="benefits-intro-points">
-              <div className="benefits-intro-point">
-                <strong>Mein Netzwerk:</strong> Über 20 Jahre in der Branche haben ein starkes Netzwerk aus Notaren, Rechtsanwälten, Finanzierungsexperten und großen Immobiliengruppen geschaffen. Dieses Netzwerk ist Ihr Kapital.
+            <div className="benefits-intro-content">
+              <div className="benefits-intro-image">
+                <img src="/vertrauen_expertise.png" alt="Vertrauen & Expertise" className="benefits-intro-img" />
               </div>
-              <div className="benefits-intro-point">
-                <strong>Meine Erfahrung:</strong> Ich kenne den Markt aus der Perspektive des Investors und des Vermittlers. Diese 360-Grad-Sicht ermöglicht es mir, Chancen zu erkennen, wo andere nur Objekte sehen.
+              <div className="benefits-intro-text">
+                <div className="benefits-intro-points">
+                  <div className="benefits-intro-point">
+                    <strong>Mein Netzwerk:</strong> Über 20 Jahre in der Branche haben ein starkes Netzwerk aus Notaren, Rechtsanwälten, Finanzierungsexperten und großen Immobiliengruppen geschaffen. Dieses Netzwerk ist Ihr Kapital.
+                  </div>
+                  <div className="benefits-intro-point">
+                    <strong>Meine Erfahrung:</strong> Ich kenne den Markt aus der Perspektive des Investors und des Vermittlers. Diese 360-Grad-Sicht ermöglicht es mir, Chancen zu erkennen, wo andere nur Objekte sehen.
+                  </div>
+                  <div className="benefits-intro-point">
+                    <strong>Meine Unabhängigkeit:</strong> Ich bin nicht an ein bestimmtes Unternehmen gebunden. Meine Beratung ist unabhängig und ausschließlich Ihren Interessen verpflichtet. Sie bekommen eine ehrliche Einschätzung und eine maßgeschneiderte Strategie.
+                  </div>
+                </div>
               </div>
-              <div className="benefits-intro-point">
-                <strong>Meine Unabhängigkeit:</strong> Ich bin nicht an ein bestimmtes Unternehmen gebunden. Meine Beratung ist unabhängig und ausschließlich Ihren Interessen verpflichtet. Sie bekommen eine ehrliche Einschätzung und eine maßgeschneiderte Strategie.
-              </div>
-            </div>
-            <div className="benefits-intro-image">
-              <img src="/vertrauen_expertise.png" alt="Vertrauen & Expertise" className="benefits-intro-img" />
             </div>
           </div>
           <div className="grid-3-cols">
