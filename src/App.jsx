@@ -195,37 +195,39 @@ function App() {
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Problem & Solution Section - 3. Section */}
-      <section className="section bg-off-white problem-solution">
-        <div className="container">
-          <div className="problem-solution-content">
-            <div className="problem-solution-image">
-              <img src="/vertrauen_expertise.png" alt="Vertrauen & Expertise" className="solution-image" />
-            </div>
-            <div className="problem-solution-text">
-              <h2>Ihr Vorteil</h2>
-              <div className="problem-text">
-                <p>In einem unübersichtlichen Markt ist Vertrauen die wichtigste Währung. Meine Klienten schätzen vor allem drei Dinge an unserer Zusammenarbeit:</p>
-              </div>
-              <div className="solution-text">
-                <p><strong>Mein Netzwerk:</strong> Über 20 Jahre in der Branche haben ein starkes Netzwerk aus Notaren, Rechtsanwälten, Finanzierungsexperten und großen Immobiliengruppen geschaffen. Dieses Netzwerk ist Ihr Kapital.</p>
-                <p><strong>Meine Erfahrung:</strong> Ich kenne den Markt aus der Perspektive des Investors und des Vermittlers. Diese 360-Grad-Sicht ermöglicht es mir, Chancen zu erkennen, wo andere nur Objekte sehen.</p>
-                <p><strong>Meine Unabhängigkeit:</strong> Ich bin nicht an ein bestimmtes Unternehmen gebunden. Meine Beratung ist unabhängig und ausschließlich Ihren Interessen verpflichtet. Sie bekommen eine ehrliche Einschätzung und eine maßgeschneiderte Strategie.</p>
-              </div>
-            </div>
+          <div className="section-cta" style={{ marginTop: '50px', textAlign: 'center' }}>
+            <a href="#kontakt" className="btn">Jetzt Kontakt aufnehmen</a>
           </div>
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Benefits Section - 3. Section */}
       <section id="vorteile" className="section bg-off-white benefits-section">
         <div className="container">
           <div className="section-header text-center">
-            <h2>Vorteile einer Zusammenarbeit mit Kari Noé</h2>
+            <h2>Ihr Vorteil</h2>
             <div className="separator-center"></div>
+          </div>
+
+          {/* Introduction Text */}
+          <div className="benefits-intro">
+            <p className="benefits-intro-lead text-center">
+              In einem unübersichtlichen Markt ist Vertrauen die wichtigste Währung. Meine Klienten schätzen vor allem drei Dinge an unserer Zusammenarbeit:
+            </p>
+            <div className="benefits-intro-points">
+              <div className="benefits-intro-point">
+                <strong>Mein Netzwerk:</strong> Über 20 Jahre in der Branche haben ein starkes Netzwerk aus Notaren, Rechtsanwälten, Finanzierungsexperten und großen Immobiliengruppen geschaffen. Dieses Netzwerk ist Ihr Kapital.
+              </div>
+              <div className="benefits-intro-point">
+                <strong>Meine Erfahrung:</strong> Ich kenne den Markt aus der Perspektive des Investors und des Vermittlers. Diese 360-Grad-Sicht ermöglicht es mir, Chancen zu erkennen, wo andere nur Objekte sehen.
+              </div>
+              <div className="benefits-intro-point">
+                <strong>Meine Unabhängigkeit:</strong> Ich bin nicht an ein bestimmtes Unternehmen gebunden. Meine Beratung ist unabhängig und ausschließlich Ihren Interessen verpflichtet. Sie bekommen eine ehrliche Einschätzung und eine maßgeschneiderte Strategie.
+              </div>
+            </div>
+            <div className="benefits-intro-image">
+              <img src="/vertrauen_expertise.png" alt="Vertrauen & Expertise" className="benefits-intro-img" />
+            </div>
           </div>
           <div className="grid-3-cols">
             {[
@@ -273,6 +275,9 @@ function App() {
                 <p>{benefit.text}</p>
               </motion.div>
             ))}
+          </div>
+          <div className="section-cta" style={{ marginTop: '50px', textAlign: 'center' }}>
+            <a href="#kontakt" className="btn">Jetzt Kontakt aufnehmen</a>
           </div>
         </div>
       </section>
@@ -363,6 +368,9 @@ function App() {
               </motion.div>
             ))}
           </div>
+          <div className="section-cta" style={{ marginTop: '50px', textAlign: 'center' }}>
+            <a href="#kontakt" className="btn">Jetzt Kontakt aufnehmen</a>
+          </div>
         </div>
       </section>
 
@@ -395,6 +403,9 @@ function App() {
                 {i < 4 && <div className="process-arrow"><ArrowRight size={24} /></div>}
               </motion.div>
             ))}
+          </div>
+          <div className="section-cta" style={{ marginTop: '50px', textAlign: 'center' }}>
+            <a href="#kontakt" className="btn">Jetzt Kontakt aufnehmen</a>
           </div>
         </div>
       </section>
